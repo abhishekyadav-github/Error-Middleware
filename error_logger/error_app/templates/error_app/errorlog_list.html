@@ -1,0 +1,8 @@
+<h1>Error Logs</h1>
+<ul>
+    {% for errorlog in errorlogs %}
+        <li>{{ errorlog }}</li>
+    {% empty %}
+        <li>No error logs found.</li>
+    {% endfor %}
+</ul>
