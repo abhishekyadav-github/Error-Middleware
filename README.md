@@ -21,3 +21,6 @@ The API's Postman collection is in the root directory with name ErrorLog_Middlew
 
 ***
 Note: The Middleware file is in error_app but since it's added in settings.py middlewares it became global. And the error_app is there to add the CRUD functionality for the Error_Logs, and the API collection is provided for the same. 
+
+***
+P.S. please ignore the templates as they are just there in case you wanna have a little better FE part for this code. 
